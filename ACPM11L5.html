@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Box Model Program</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<style>
+  body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+.box-example {
+
+    width: 200px;
+    height: 100px;
+    
+    padding: 20px; 
+    
+    border: 5px solid black; 
+    
+    margin: 20px auto; 
+    
+    background-color: lightblue; 
+    color: black;
+    text-align: center;
+    
+    box-sizing: border-box; 
+}
+</style>
+<body>
+    <h1>The CSS Box Model</h1>
+    
+    <div class="box-example">
+        This is the content area.
+        (Width: 200px, Height: 100px)
+    </div>
+
+    <p>The element above has a total visible width of 250px and is centered using margins.</p>
+</body>
+</html>
