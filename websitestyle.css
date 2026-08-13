@@ -1,0 +1,65 @@
+.pimg1, .pimg2, .pimg3 {
+  position: relative;
+  opacity: 0.50;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.pimg1 {
+  background-image: url('nature.jpg');
+  min-height: 100%;
+}
+
+.pimg2 {
+  background-image: url('nature2.jpg');
+  min-height: 800px;
+}
+
+.pimg3 {
+  background-image: url('nature3.jpg');
+  min-height: 400px;
+}
+
+.section {
+  text-align: left;
+  padding: 50px 80px;
+}
+
+.section-light {
+  background-color: #f4f4f4;
+  color: #666;
+}
+
+.section-dark {
+  background-color: #282e34;
+  color: #e453d1;
+}
+
+.ptext {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+  font-size: 27px;
+  letter-spacing: 8px;
+  text-transform: uppercase;
+}
+
+.ptext .border {
+  background-color: #111;
+  color:rgb(50, 212, 41);
+  padding: 20px;
+}
+
+.ptext .border.trans {
+  background-color: transparent;
+}
+
+@media(max-width:500px){
+  .pimg1, .pimg2, .pimg3 {
+    background-attachment: scroll;
+  }
+}
